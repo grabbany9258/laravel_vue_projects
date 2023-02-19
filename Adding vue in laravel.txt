@@ -1,0 +1,4 @@
+Adding vue in laravel
+1)npm install vue
+2)npm install vue-loader --save-dev
+3) npm install vue-template-loader --save-dev
