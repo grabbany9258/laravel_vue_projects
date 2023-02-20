@@ -13,6 +13,7 @@
                         <div class="col-lg-3">
                             <div class="categories__item set-bg" data-setbg="{{ $product->image_name }}">
                                 <h5><a href="#">{{ $product->name }}</a></h5>
+                                <add-to-cart product-id={{ $product->id }}> </add-to-cart>
                             </div>
                         </div>
                     @endforeach
